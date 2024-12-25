@@ -1,0 +1,121 @@
+truefalse: [
+{
+    id: 1,
+    type: "truefalse",
+    question: "Tea was first discovered in ancient Japan.",
+    correctAnswer: "FALSE"
+},
+{
+    id: 2,
+    type: "truefalse",
+    question: "The Japanese tea ceremony uses powdered green tea.",
+    correctAnswer: "TRUE"
+}
+],
+
+yesno: [
+{
+    id: 1,
+    type: "yesno",
+    question: "Tea was first discovered in ancient Japan.",
+    correctAnswer: "FALSE"
+},
+{
+    id: 2,
+    type: "yesno",
+    question: "The Japanese tea ceremony uses powdered green tea.",
+    correctAnswer: "TRUE"
+}
+],
+
+
+fillin: [
+{
+    id: 3,
+    type: "fillin",
+    question: "Legend says that tea was discovered when leaves blew into Emperor Shen Nong's pot of ________ water.",
+    correctAnswer: "boiling"
+},
+{
+    id: 4,
+    type: "fillin",
+    question: "Tea contains ________ which may have health benefits.",
+    correctAnswer: "antioxidants"
+}
+],
+
+
+multiplechoice: [
+{
+    id: 5,
+    type: "multiplechoice",
+    question: "Which of the following is NOT mentioned as a type of tea in the passage?",
+    correctAnswer: "C",
+    options: ["A. Black tea", "B. Green tea", "C. Red tea", "D. White tea"]
+}
+],
+
+
+paragraphmatching: [
+{
+    id: 14,
+    type: "paragraphmatching",
+    question: "The paragraph that describes the origin and legend of tea discovery",
+    correctAnswer: "A",
+    allowMultipleUse: true
+},
+{
+    id: 15,
+    type: "paragraphmatching",
+    question: "The paragraph that mentions the Japanese tea ceremony",
+    correctAnswer: "B",
+    allowMultipleUse: true
+},
+{
+    id: 16,
+    type: "paragraphmatching",
+    question: "The paragraph that discusses different types of tea and their potential health benefits",
+    correctAnswer: "C",
+    allowMultipleUse: true
+}
+],
+
+
+multipleletterchoice: [
+{
+    id: 20,
+    type: "multipleletterchoice",
+    question: "Which TWO of the following statements are true about tea according to the passage?",
+    correctAnswer: "A,C",
+    requiredAnswers: 2,
+    statements: {
+    "A": "Tea originated in ancient China.",
+    "B": "The Japanese were the first to develop tea ceremonies.",
+    "C": "Tea contains compounds that may have health benefits.",
+    "D": "Red tea is mentioned as a common variety of tea.",
+    "E": "Tea was discovered intentionally by Emperor Shen Nong."
+    }
+}
+]
+
+
+wordlist: [
+{
+    id: 9,
+    type: "wordlist",
+    question: "The Great Barrier Reef supports many ________ or endangered species.",
+    correctAnswer: "vulnerable",
+    wordList: ["vulnerable", "thriving", "exotic", "common"]
+}
+],
+
+
+summary: [
+{
+    id: 9,
+    type: "summary",
+    summaryText: "Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting ________ to Rome resulted in calls for ________ for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a ________ for the return of the Roman officials they captured.",
+    number: [9,10, 11],
+    correctAnswer: ['grain', 'punishment', 'ransom']
+},
+]
